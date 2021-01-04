@@ -1,0 +1,227 @@
+*{
+   border:0;
+   margin:0;
+   padding:0;
+}
+
+body{
+  background: #000;
+}
+
+.container{
+  margin: auto;
+  background-color: white;
+  width: 720px;
+  padding: 10px;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider{
+  position: relative;
+  width: 700px;
+  height: 250px;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:#fff;
+}
+
+ul.slider li img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+ul.slider li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+
+ul.slider li:target {
+    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+.menu{
+  text-align: center;
+  margin: 60px;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: grey;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+#contendor{
+  box-shadow: 2px 10px rbga(0,0,0,0.5);
+  margin-top: 10px;
+  height: 1050px;
+  width: 780px;
+  margin-right: auto;
+  margin-left: auto;
+}
+header, #banner, #noticias, #tienda, #marcas{
+  background: #0D4584;
+  width: 780px;
+  height: 100px;
+}
+
+#header{
+  background: #0D4584;
+  width: 780px;
+  height: 100px;
+}
+#banner{
+  background: #0D4584;
+  height: 300px;
+  text-align: left;
+
+
+}
+
+#noticias{
+  background: #0D4584;
+  height: 255px;
+  width: 760px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  text-align: center;
+
+}
+
+#tienda{
+  width: 760px;
+  background: #0D4584;
+  height: 190px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+#marcas{
+  background: #0D4584;
+  height: 100px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  text-align: center;
+}
+footer{
+  background: #565F6A;
+  width: 780px;
+  height: 60px;
+}
+#banner #banner1{
+  background: #549CF3;
+  width: 300px;
+  height: 290px;
+  display: inline-block;
+}
+#banner #banner2{
+  background: #549CF3;
+  width: 465px;
+  height: 290px;
+  display: inline-block;
+}
+#noticias #noticia1{
+  background: #549CF3;
+  width: 250px;
+  height: 215px;
+  display: inline-block;
+}
+#noticias #noticia2{
+  background: #549CF3;
+  width: 250px;
+  height: 215px;
+  display: inline-block;
+}
+#noticias #noticia3{
+  background: #549CF3;
+  width: 250px;
+  height: 215px;
+  display: inline-block;
+}
+
+.espacio{
+  max-width: 760px;
+  height: 10px;
+}
+#tienda #producto1{
+  background: #549CF3;
+  width: 180px;
+  height: 180px;
+  display: inline-block;
+}
+#tienda #producto2{
+  background: #549CF3;
+  width: 180px;
+  height: 180px;
+  display: inline-block;
+}
+#tienda #producto3{
+  background: #549CF3;
+  width: 180px;
+  height: 180px;
+  display: inline-block;
+}
+#tienda #producto4{
+  background: #549CF3;
+  width: 180px;
+  height: 180px;
+  display: inline-block;
+}
+#marcas #marca1{
+  background: #0D4584;
+  width: 110px;
+  height: 100px;
+  display: inline-block;
+}
+  #marcas #marca2{
+    background: #0D4584;
+    width: 110px;
+    height: 100px;
+    display: inline-block;}
+  #marcas #marca3{
+      background: #0D4584;
+      width: 110px;
+      height: 100px;
+      display: inline-block;}
+  #marcas #marca4{
+        background: #0D4584;
+        width: 110px;
+        height: 100px;
+        display: inline-block;}
+    #marcas #marca5{
+          background: #0D4584;
+          width: 110px;
+          height: 100px;
+          display: inline-block;}
+    #marcas #marca6{
+            background: #0D4584;
+            width: 110px;
+            height: 100px;
+            display: inline-block;}
